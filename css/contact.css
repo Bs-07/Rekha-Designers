@@ -1,0 +1,143 @@
+.section-contact {
+    height: 80vh;
+}
+
+.contact {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+    margin-top: 4.6rem;
+    font-size: 4.4rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.05;
+    margin-bottom: 2.2rem;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.h1 {
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 500;
+    color: #444;
+}
+
+.p1,
+.p2,
+.p3 {
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+
+.social-icons {
+    text-decoration: none;
+    color: #333;
+    font-size: 2.1rem;
+}
+
+.social-icons:hover {
+    color: #5559DD;
+}
+
+.bg-img {
+    /* background-image: url("9267.jpg"); */
+    width: 100%;
+    /* filter: grayscale(100%); */
+    /* box-shadow: inset 2px 2px 130px 90px rgba(0, 0, 0, 0.25); */
+}
+
+.cot {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-color: #e67e22; */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+
+    background-image: linear-gradient(to right bottom, #add7f9, #d6ebfc);
+    overflow: hidden;
+}
+
+.cot-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #333;
+}
+
+.cot .heading-secondary {
+    /* color: #45260a; */
+    color: inherit;
+    margin-bottom: 3.2rem;
+}
+
+.cot-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+
+.cot-img-box {
+    background-image: linear-gradient(to right bottom,
+            #add7f92f,
+            #ebf5fec5),
+        url("3DCADDesign1-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cot-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+
+.cot-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.cot-form input,
+.cot-form select,
+.cot-form textarea {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #ebf5fe;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cot-form input::placeholder {
+    color: #aaa;
+}
+
+.cot *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
